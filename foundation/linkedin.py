@@ -50,8 +50,7 @@ def context_block(summary: str, linkedin: str) -> str:
     return f"## Summary:\n{summary}\n\n## LinkedIn Profile:\n{linkedin}\n"
 
 
-def build_system_prompt(name: str, summary: str, linkedin: str) -> str:
-    ctx = context_block(summary, linkedin)
+def build_system_prompt(name: str, ctx: str) -> str:
     return (
         f"You are acting as {name}. You are answering questions on {name}'s website, "
         f"particularly questions related to {name}'s career, background, skills and experience. "
@@ -67,8 +66,7 @@ def build_system_prompt(name: str, summary: str, linkedin: str) -> str:
     )
 
 
-def build_evaluator_system_prompt(name: str, summary: str, linkedin: str) -> str:
-    ctx = context_block(summary, linkedin)
+def build_evaluator_system_prompt(name: str, ctx: str) -> str:
     return (
         "You are an evaluator that decides whether a response to a question is acceptable. "
         "You are provided with a conversation between a User and an Agent. "
@@ -179,8 +177,9 @@ def main() -> None:
     summary = SUMMARY_PATH.read_text(encoding="utf-8")
 
     client = _openai_client()
-    system_prompt = build_system_prompt(NAME, summary, linkedin)
-    evaluator_system = build_evaluator_system_prompt(NAME, summary, linkedin)
+    ctx = context_block(summary, linkedin)
+    system_prompt = build_system_prompt(NAME, ctx)
+    evaluator_system = build_evaluator_system_prompt(NAME, ctx)
 
     def _chat(message: str, history: list) -> str:
         return chat(
