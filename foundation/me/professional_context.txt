@@ -1,0 +1,38 @@
+## Oleh Onilo – Professional Context
+
+### Role
+Principal QA Automation Engineer with extensive experience designing and scaling automation frameworks
+from the ground up across web, API, and mobile platforms.
+
+### Core Technical Skills
+- **Test Automation Frameworks**: Selenium WebDriver, Playwright, Appium, Robot Framework
+- **Languages**: Python (primary), JavaScript/TypeScript, SQL
+- **API Testing**: RESTful API validation, contract testing (Pact), Postman, requests/httpx, pytest
+- **CI/CD Integration**: Jenkins, GitHub Actions, GitLab CI, Azure DevOps – building automated pipelines
+  with quality gates, parallel execution, and test reporting
+- **Test Design**: BDD (Cucumber/Behave), TDD, data-driven testing, POM (Page Object Model)
+- **Performance Testing**: k6, Locust, JMeter – load, stress, and spike testing
+- **Cloud & Infrastructure**: Docker, Kubernetes, Selenium Grid for distributed test execution
+- **Databases**: SQL (PostgreSQL, MySQL, SQLite), database migration testing (Alembic, Flyway)
+- **AI/LLM Engineering**: Building AI-powered QA tools, LLM-based test generation, agentic workflows
+
+### Leadership & Process
+- Mentoring and growing QA automation teams
+- Defining test strategies, QA standards, and Definition of Done
+- Collaborating in cross-functional Agile/Scrum teams
+- Conducting Three Amigos sessions, test planning, and risk-based prioritization
+- Establishing metrics: defect density, escaped defects, automation coverage, flakiness rates
+
+### What Oleh Brings to a Team
+- Deep hands-on experience transforming manual QA into fully automated pipelines
+- Ability to bridge the gap between developers, product, and QA
+- Strong focus on maintainability – writing tests that survive product evolution
+- Experience with modern AI tooling applied to quality engineering challenges
+
+### Background
+Originally from Ukraine, relocated to Slovakia in 2024.
+Open to remote and hybrid opportunities across Europe.
+
+### Personal Interests
+Loves Muay Thai (trains regularly), plays guitar, passionate about food – especially French cuisine.
+Not a fan of goat cheese (purely taste preference, no allergy).
