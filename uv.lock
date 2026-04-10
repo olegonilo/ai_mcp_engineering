@@ -14,6 +14,7 @@ dependencies = [
     { name = "anthropic" },
     { name = "autogen-agentchat" },
     { name = "autogen-ext", extra = ["grpc", "mcp", "ollama", "openai"] },
+    { name = "beautifulsoup4" },
     { name = "bs4" },
     { name = "gradio" },
     { name = "httpx" },
@@ -33,12 +34,14 @@ dependencies = [
     { name = "openai-agents" },
     { name = "playwright" },
     { name = "plotly" },
+    { name = "pocketflow" },
     { name = "polygon-api-client" },
     { name = "psutil" },
     { name = "pydantic" },
     { name = "pypdf" },
     { name = "pypdf2" },
     { name = "python-dotenv" },
+    { name = "pyyaml" },
     { name = "requests" },
     { name = "semantic-kernel" },
     { name = "sendgrid" },
@@ -58,6 +61,7 @@ requires-dist = [
     { name = "anthropic", specifier = ">=0.49.0" },
     { name = "autogen-agentchat", specifier = ">=0.4.9.2" },
     { name = "autogen-ext", extras = ["grpc", "mcp", "ollama", "openai"], specifier = ">=0.4.9.2" },
+    { name = "beautifulsoup4", specifier = ">=4.14.2" },
     { name = "bs4", specifier = ">=0.0.2" },
     { name = "gradio", specifier = ">=5.22.0" },
     { name = "httpx", specifier = ">=0.28.1" },
@@ -77,12 +81,14 @@ requires-dist = [
     { name = "openai-agents", specifier = ">=0.0.15" },
     { name = "playwright", specifier = ">=1.51.0" },
     { name = "plotly", specifier = ">=6.0.1" },
+    { name = "pocketflow", specifier = ">=0.0.3" },
     { name = "polygon-api-client", specifier = ">=1.14.5" },
     { name = "psutil", specifier = ">=7.0.0" },
     { name = "pydantic", specifier = ">=2.11.10" },
     { name = "pypdf", specifier = ">=5.4.0" },
     { name = "pypdf2", specifier = ">=3.0.1" },
     { name = "python-dotenv", specifier = ">=1.0.1" },
+    { name = "pyyaml", specifier = ">=6.0.3" },
     { name = "requests", specifier = ">=2.32.3" },
     { name = "semantic-kernel", specifier = ">=1.25.0" },
     { name = "sendgrid", specifier = ">=6.11.0" },
@@ -2715,6 +2721,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/0c/63/961d47c9ffd592a575495891cdcf7875dc0903ebb33ac238935714213789/plotly-6.3.1.tar.gz", hash = "sha256:dd896e3d940e653a7ce0470087e82c2bd903969a55e30d1b01bb389319461bb0", size = 6956460, upload-time = "2025-10-02T16:10:34.16Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/3f/93/023955c26b0ce614342d11cc0652f1e45e32393b6ab9d11a664a60e9b7b7/plotly-6.3.1-py3-none-any.whl", hash = "sha256:8b4420d1dcf2b040f5983eed433f95732ed24930e496d36eb70d211923532e64", size = 9833698, upload-time = "2025-10-02T16:10:22.584Z" },
+]
+
+[[package]]
+name = "pocketflow"
+version = "0.0.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/22/96/2e15fa9d94329032d034337210bd6cc9d060eed59eb0b24dcb1375c0f2ec/pocketflow-0.0.3.tar.gz", hash = "sha256:afadc1c44658bf811668a789dee7053ed654d021c861c58696a2cb6bc4775133", size = 19463, upload-time = "2025-07-28T00:55:55.807Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/00/5e/1f27d937a4983c8783d9255c4880e9b8a5a1774ebc4eb55d4c3f3d112d6b/pocketflow-0.0.3-py3-none-any.whl", hash = "sha256:028795ae5db00f421c97036f7cd5e89fe0654bef2a03032c84fcf6f61a292962", size = 4484, upload-time = "2025-07-28T00:55:54.734Z" },
 ]
 
 [[package]]
