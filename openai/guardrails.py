@@ -25,8 +25,12 @@ openai_api_key = os.getenv("OPENAI_API_KEY")
 if not openai_api_key:
     sys.exit("OPENAI_API_KEY is required but not set")
 
-FROM_EMAIL = os.getenv("FROM_EMAIL", "ed@edwarddonner.com")
-TO_EMAIL = os.getenv("TO_EMAIL", "ed.donner@gmail.com")
+FROM_EMAIL = os.getenv("FROM_EMAIL")
+if not FROM_EMAIL:
+    sys.exit("FROM_EMAIL is required but not set")
+TO_EMAIL = os.getenv("TO_EMAIL")
+if not TO_EMAIL:
+    sys.exit("TO_EMAIL is required but not set")
 
 print(f"OpenAI API Key exists and begins {openai_api_key[:8]}")
 
