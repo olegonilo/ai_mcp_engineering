@@ -1,0 +1,35 @@
+propose:
+  description: >
+    You are proposing the motion: {motion}.
+    Come up with a clear, well-structured argument in favor of the motion.
+    Be specific and convincing — use evidence and reasoning, not just assertions.
+  expected_output: >
+    A concise, compelling argument in favor of the motion, structured with a clear
+    opening position, supporting points, and a conclusion.
+  agent: debater
+  markdown: true
+  output_file: output/propose.md
+
+oppose:
+  description: >
+    You are in opposition to the motion: {motion}.
+    Come up with a clear, well-structured argument against the motion.
+    Be specific and convincing — use evidence and reasoning, not just assertions.
+  expected_output: >
+    A concise, compelling argument against the motion, structured with a clear
+    opening position, supporting points, and a conclusion.
+  agent: debater
+  markdown: true
+  output_file: output/oppose.md
+
+decide:
+  description: >
+    Review the arguments presented for and against the motion: {motion}.
+    Evaluate each side on the clarity of their position, quality of reasoning,
+    and strength of evidence. Then declare a winner with a clear explanation.
+  expected_output: >
+    A verdict stating which side presented the more convincing argument and why,
+    with specific references to the strongest and weakest points from each side.
+  agent: judge
+  markdown: true
+  output_file: output/decide.md
