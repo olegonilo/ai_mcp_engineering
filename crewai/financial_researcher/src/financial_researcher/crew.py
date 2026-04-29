@@ -7,7 +7,6 @@ from crewai.project import CrewBase, agent, crew, task
 from crewai_tools import SerperDevTool
 
 _OUTPUT_DIR = Path(__file__).parent.parent.parent / "output"
-_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 @CrewBase
@@ -44,11 +43,11 @@ class ResearchCrew:
     def analysis_task(self) -> Task:
         return Task(
             config=self.tasks_config["analysis_task"],  # type: ignore[index]
-            output_file=str(_OUTPUT_DIR / "report.md"),
         )
 
     @crew
     def crew(self) -> Crew:
+        _OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
         return Crew(
             agents=self.agents,
             tasks=self.tasks,

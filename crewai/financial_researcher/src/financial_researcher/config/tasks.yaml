@@ -31,3 +31,4 @@ analysis_task:
   agent: analyst
   context:
     - research_task
+  output_file: output/report.md
