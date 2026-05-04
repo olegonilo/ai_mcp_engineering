@@ -1,13 +1,3 @@
-**Chosen Company for Investment:** 
+The chosen company for investment is Pony.ai due to its strong market position targeting both robotaxis and robotrucks, which are expected to see significant growth. Pony.ai plans to expand its fleet beyond 3,000 vehicles in 2026 and enter more than 20 cities globally. The company has a positive stock outlook, with analysts projecting an upside of over 139.35%, and it carries a strong buy rating by the majority of analysts. 
 
-**Metropolis**
-
-- **Reason for Selection:** Metropolis stands out as the best company for investment due to its robust market position as a technology-driven firm leveraging AI to enhance urban environments. The company is well-capitalized with a recent $1.6 billion financing, positioning it for substantial growth. Its focus on modernizing parking and mobility solutions through innovative AI and computer vision capabilities presents significant long-term growth potential. Despite market competition, the substantial backing and strategic vision make it a strong candidate for investment.
-
-**Companies Not Selected:**
-
-1. **Cloover**
-   - **Reason for Non-selection:** While Cloover shows promise with its focus on sustainability and decarbonization efforts in Europe, its market potential seems more niche compared to Metropolis's broader urban solutions. Cloover's growth aligns well with green technologies, but the scale and immediacy of Metropolis's AI-driven urban impact present a more compelling immediate investment opportunity.
-
-2. **Purpose Green**
-   - **Reason for Non-selection:** Purpose Green offers attractive prospects in the sustainable technology sector, supported by government financing and favorable market conditions. However, the broader and more immediate impact forecasted for Metropolis, combined with its strong financial support, makes it a more attractive investment candidate at this stage. The green sector's growth is notable, but Metropolis's urban innovation potential currently takes precedence.
+Metropolis was not selected despite its strong market position and forecasted earnings growth due to current valuation concerns and competitive pressures. MapLight Therapeutics, although having a potential disruptive muscarinic class, trades at a premium with cautious technical indicators, leading to a more moderate investment rating compared to Pony.ai's strong prospects.
