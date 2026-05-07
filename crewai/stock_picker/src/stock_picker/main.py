@@ -13,6 +13,7 @@ from dotenv import load_dotenv  # noqa: E402
 load_dotenv()
 
 from stock_picker.crew import StockPicker  # noqa: E402
+from stock_picker.memory import build_memory, seed_user_memory  # noqa: E402
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
@@ -31,6 +32,9 @@ def _require_api_keys() -> None:
 
 def run(sector: str = _DEFAULT_SECTOR) -> None:
     _require_api_keys()
+    mem = build_memory()
+    seed_user_memory(mem)
+    mem.drain_writes()
     result = StockPicker().crew().kickoff(
         inputs={"sector": sector, "current_date": str(datetime.now().date())}
     )

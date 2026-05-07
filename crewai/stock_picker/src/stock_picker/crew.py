@@ -3,20 +3,14 @@ from typing import List
 
 from crewai import Agent, Crew, Process, Task
 from crewai.agents.agent_builder.base_agent import BaseAgent
-from crewai.memory import Memory
 from crewai.project import CrewBase, agent, crew, task
 from crewai_tools import SerperDevTool
 from pydantic import BaseModel, Field
 
+from .memory import build_memory
 from .tools.push_tool import PushNotificationTool
 
 _OUTPUT_DIR = Path(__file__).parent.parent.parent / "output"
-_MEMORY_DIR = Path(__file__).parent.parent.parent / "memory"
-
-_EMBEDDER_CONFIG = {
-    "provider": "openai",
-    "config": {"model": "text-embedding-3-small"},
-}
 
 
 class TrendingCompany(BaseModel):
@@ -57,7 +51,7 @@ class StockPicker:
         return Agent(
             config=self.agents_config["trending_company_finder"],  # type: ignore[index]
             tools=[SerperDevTool()],
-            memory=True,
+            max_iter=5,
         )
 
     @agent
@@ -65,6 +59,7 @@ class StockPicker:
         return Agent(
             config=self.agents_config["financial_researcher"],  # type: ignore[index]
             tools=[SerperDevTool()],
+            max_iter=5,
         )
 
     @agent
@@ -72,7 +67,7 @@ class StockPicker:
         return Agent(
             config=self.agents_config["stock_picker"],  # type: ignore[index]
             tools=[PushNotificationTool()],
-            memory=True,
+            max_iter=3,
         )
 
     @task
@@ -99,7 +94,6 @@ class StockPicker:
     def crew(self) -> Crew:
         """Creates the StockPicker crew"""
         _OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-        _MEMORY_DIR.mkdir(parents=True, exist_ok=True)
         manager = Agent(
             config=self.agents_config["manager"],  # type: ignore[index]
             allow_delegation=True,
@@ -111,8 +105,5 @@ class StockPicker:
             process=Process.hierarchical,
             verbose=True,
             manager_agent=manager,
-            memory=Memory(
-                storage=str(_MEMORY_DIR),
-                embedder=_EMBEDDER_CONFIG,
-            ),
+            memory=build_memory(),
         )
