@@ -1,0 +1,10 @@
+coding_task:
+  description: >
+    Write Python code to achieve this assignment: {assignment}
+    Steps: plan the solution, implement it, execute it, and confirm the output is correct.
+    Include error handling where appropriate.
+  expected_output: >
+    The complete Python code followed by the actual output produced when the code was executed.
+    Format: first the code block, then the output block.
+  agent: coder
+  output_file: output/code_and_output.txt
