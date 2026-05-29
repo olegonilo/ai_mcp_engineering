@@ -141,3 +141,4 @@ memory.db
 
 # IDE PyCharm
 /.idea
+/stealth_agent
