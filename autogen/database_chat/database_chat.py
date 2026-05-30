@@ -1,6 +1,6 @@
 import asyncio
-import os
 import sqlite3
+from pathlib import Path
 
 from autogen_agentchat.agents import AssistantAgent
 from autogen_agentchat.messages import TextMessage
@@ -10,13 +10,12 @@ from dotenv import load_dotenv
 
 load_dotenv(override=True)
 
-DB_PATH = "tickets.db"
+DB_PATH = Path(__file__).parent / "tickets.db"
 USER_MESSAGE = TextMessage(content="I'd like to go to London", source="user")
 
 
 def init_db():
-    if os.path.exists(DB_PATH):
-        os.remove(DB_PATH)
+    DB_PATH.unlink(missing_ok=True)
     cities = [
         ("London", 299),
         ("Paris", 399),
@@ -40,8 +39,9 @@ def get_city_price(city_name: str) -> float | None:
 
 
 async def main():
-    model_client = OpenAIChatCompletionClient(model="gpt-4o-mini")
+    model_client = None
     try:
+        model_client = OpenAIChatCompletionClient(model="gpt-4o-mini")
         init_db()
 
         # Basic agent — no tools
@@ -49,7 +49,6 @@ async def main():
             name="airline_agent",
             model_client=model_client,
             system_message="You are a helpful assistant for an airline. You give short, humorous answers.",
-            model_client_stream=True,
         )
         response = await basic_agent.on_messages([USER_MESSAGE], CancellationToken())
         print("Basic agent:", response.chat_message.content)
@@ -59,7 +58,6 @@ async def main():
             name="smart_airline_agent",
             model_client=model_client,
             system_message="You are a helpful assistant for an airline. You give short, humorous answers, including the price of a roundtrip ticket.",
-            model_client_stream=True,
             tools=[get_city_price],
             reflect_on_tool_use=True,
         )
@@ -69,7 +67,8 @@ async def main():
             print("Tool call:", content)
         print("Smart agent:", response.chat_message.content)
     finally:
-        await model_client.close()
+        if model_client is not None:
+            await model_client.close()
 
 
 if __name__ == "__main__":
