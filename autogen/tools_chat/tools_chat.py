@@ -1,4 +1,5 @@
 import asyncio
+import os
 import textwrap
 from io import BytesIO
 from pathlib import Path
@@ -60,29 +61,25 @@ def make_file_tools() -> list:
     return [LangChainToolAdapter(t) for t in FileManagementToolkit(root_dir=str(SANDBOX_DIR)).get_tools()]
 
 
-async def demo_image_description(client: OpenAIChatCompletionClient) -> None:
-    """Basic image description."""
-    multi_modal_message = load_image(IMAGE_URL)
+async def demo_image_description(client: OpenAIChatCompletionClient, image: MultiModalMessage) -> None:
     agent = AssistantAgent(
         name="description_agent",
         model_client=client,
         system_message="You are good at describing images",
     )
-    response = await agent.on_messages([multi_modal_message], cancellation_token=CancellationToken())
+    response = await agent.on_messages([image], cancellation_token=CancellationToken())
     print("=== Image Description ===")
     print(response.chat_message.content)
 
 
-async def demo_structured_description(client: OpenAIChatCompletionClient) -> None:
-    """Structured image description using Pydantic output."""
-    multi_modal_message = load_image(IMAGE_URL)
+async def demo_structured_description(client: OpenAIChatCompletionClient, image: MultiModalMessage) -> None:
     agent = AssistantAgent(
         name="description_agent",
         model_client=client,
         system_message="You are good at describing images in detail",
         output_content_type=ImageDescription,
     )
-    response = await agent.on_messages([multi_modal_message], cancellation_token=CancellationToken())
+    response = await agent.on_messages([image], cancellation_token=CancellationToken())
     reply = response.chat_message.content
     print("=== Structured Description ===")
     if not isinstance(reply, ImageDescription):
@@ -105,6 +102,7 @@ async def demo_tool_agent(client: OpenAIChatCompletionClient) -> None:
         model_client=client,
         tools=tools,
         reflect_on_tool_use=True,
+        max_tool_iterations=10,
     )
     prompt = (
         f"{FLIGHT_PROMPT}\n"
@@ -118,15 +116,6 @@ async def demo_tool_agent(client: OpenAIChatCompletionClient) -> None:
         cancellation_token=CancellationToken(),
     )
     print("=== Tool Agent ===")
-    for msg in result.inner_messages or []:
-        print(msg.content)
-    print(result.chat_message.content)
-
-    # Follow-up turn to trigger file writing if needed
-    result = await agent.on_messages(
-        [TextMessage(content="OK proceed", source="user")],
-        cancellation_token=CancellationToken(),
-    )
     for msg in result.inner_messages or []:
         print(msg.content)
     print(result.chat_message.content)
@@ -159,7 +148,8 @@ async def demo_multi_agent_team(client: OpenAIChatCompletionClient) -> None:
 async def demo_mcp_fetch(client: OpenAIChatCompletionClient) -> None:
     """Agent using MCP fetch server to summarize a website."""
     try:
-        fetch_mcp_server = StdioServerParams(command="uvx", args=["mcp-server-fetch"], read_timeout_seconds=60)
+        _quiet_env = {**os.environ, "npm_config_loglevel": "silent", "npm_config_progress": "false", "NO_UPDATE_NOTIFIER": "1"}
+        fetch_mcp_server = StdioServerParams(command="uvx", args=["mcp-server-fetch"], env=_quiet_env, read_timeout_seconds=60)
         fetcher_tools = await mcp_server_tools(fetch_mcp_server)
     except Exception as exc:
         print(f"=== MCP Fetch Agent ===\n[error] MCP server unavailable: {exc}")
@@ -178,8 +168,12 @@ async def demo_mcp_fetch(client: OpenAIChatCompletionClient) -> None:
 async def main() -> None:
     client = OpenAIChatCompletionClient(model="gpt-4o-mini")
     try:
-        await demo_image_description(client)
-        await demo_structured_description(client)
+        try:
+            image = load_image(IMAGE_URL)
+            await demo_image_description(client, image)
+            await demo_structured_description(client, image)
+        except RuntimeError as exc:
+            print(f"[error] Image demos skipped: {exc}")
         await demo_tool_agent(client)
         await demo_multi_agent_team(client)
         await demo_mcp_fetch(client)
