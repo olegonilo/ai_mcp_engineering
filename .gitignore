@@ -142,3 +142,4 @@ memory.db
 # IDE PyCharm
 /.idea
 /stealth_agent
+/crewai/osint_bot

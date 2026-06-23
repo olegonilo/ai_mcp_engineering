@@ -1,0 +1,1227 @@
+- generic [active] [ref=e1]:
+  - dialog "Manage Your Privacy" [ref=e2]:
+    - document [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - heading "Manage Your Privacy" [level=1] [ref=e6]
+          - generic [ref=e7]: "To provide the best experiences, our 141 partners and we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us and our partners to process personal data, such as browsing behavior and unique IDs, on this site. You can update your choices at any time by clicking on the Update Privacy Preferences link at the bottom of the screen. We use this data to:"
+        - form "Purpose" [ref=e8]:
+          - generic [ref=e10]: Use limited data to select advertising
+          - generic [ref=e17]: Actively scan device characteristics for identification
+          - generic [ref=e21]: Use precise geolocation data
+          - generic [ref=e26]: Use limited data to select content
+          - generic [ref=e30]: Develop and improve services
+          - generic [ref=e37]: Understand audiences through statistics or combinations of data from different sources
+          - generic [ref=e41]: Measure content performance
+          - generic [ref=e50]: Measure advertising performance
+          - generic [ref=e57]: Create profiles for personalised advertising
+          - generic [ref=e61]: Use profiles to select personalised advertising
+          - generic [ref=e70]: Create profiles to personalise content
+          - generic [ref=e80]: Use profiles to select personalised content
+          - generic [ref=e84]: Store and/or access information on a device
+      - form [ref=e93]:
+        - button "Reject All" [ref=e95] [cursor=pointer]:
+          - generic [ref=e96]: Reject All
+        - button "Manage Settings" [ref=e98] [cursor=pointer]
+        - button "Accept All" [ref=e100] [cursor=pointer]:
+          - generic [ref=e101]: Accept All
+    - 'button "Language: en" [ref=e102] [cursor=pointer]':
+      - img [ref=e103]
+  - generic [ref=e105]:
+    - link "Skip to content" [ref=e106] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=e107]:
+      - generic [ref=e109]:
+        - link "Cover and edge design of Sally's Baking 101 Cookbook" [ref=e110] [cursor=pointer]:
+          - /url: =https://sallysbakingaddiction.com/sallys-baking-101/
+          - img "Cover and edge design of Sally's Baking 101 Cookbook" [ref=e111]
+        - generic [ref=e113]:
+          - generic [ref=e114]: Sally's Baking 101 Cookbook
+          - link "Order Today!" [ref=e115] [cursor=pointer]:
+            - /url: https://sallysbakingaddiction.com/sallys-baking-101/
+            - generic [ref=e116]: Order Today!
+      - generic [ref=e118]:
+        - link "Sally's Baking Home" [ref=e120] [cursor=pointer]:
+          - /url: https://sallysbakingaddiction.com/
+          - text: Sally's Baking
+        - list [ref=e121]:
+          - listitem [ref=e122]:
+            - link "All Recipes" [ref=e123] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/recipe-index/
+              - generic [ref=e124]:
+                - img [ref=e125]
+                - text: All Recipes
+          - listitem [ref=e127]:
+            - link "Baking Tips" [ref=e128] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/category/baking-tips/
+              - generic [ref=e129]:
+                - img [ref=e130]
+                - text: Baking Tips
+          - listitem [ref=e132]:
+            - link "Ingredient" [ref=e133] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/ingredient-index/
+              - generic [ref=e134]:
+                - img [ref=e135]
+                - text: Ingredient
+          - listitem [ref=e137]:
+            - link "Community" [ref=e138] [cursor=pointer]:
+              - /url: https://sallysbaking.raptive.com/
+              - generic [ref=e139]:
+                - img [ref=e140]
+                - text: Community
+          - listitem [ref=e142]:
+            - link "Sally’s Shop" [ref=e143] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/baking-tools/
+              - generic [ref=e144]:
+                - img [ref=e145]
+                - text: Sally’s Shop
+          - listitem [ref=e147]:
+            - link "Videos" [ref=e148] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/category/video/
+              - generic [ref=e149]:
+                - img [ref=e150]
+                - text: Videos
+        - generic [ref=e152]:
+          - button "search-toggle" [ref=e153] [cursor=pointer]:
+            - img [ref=e154]
+          - button "menu" [ref=e156] [cursor=pointer]:
+            - img [ref=e157]
+      - search [ref=e159]:
+        - generic [ref=e160]: Search
+        - generic [ref=e161]:
+          - searchbox "Search" [ref=e162]
+          - button "Search" [ref=e163] [cursor=pointer]:
+            - img [ref=e164]
+    - generic [ref=e166]:
+      - button "Close menu" [ref=e167] [cursor=pointer]
+      - generic [ref=e168]:
+        - list [ref=e169]:
+          - listitem [ref=e170]:
+            - link "All Recipes" [ref=e171] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/recipe-index/
+              - generic [ref=e172]:
+                - img [ref=e173]
+                - generic [ref=e175]: All Recipes
+          - listitem [ref=e176]:
+            - link "Baking Tips" [ref=e177] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/category/baking-tips/
+              - generic [ref=e178]:
+                - img [ref=e179]
+                - generic [ref=e181]: Baking Tips
+          - listitem [ref=e182]:
+            - link "Browse By Ingredient" [ref=e183] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/ingredient-index/
+              - generic [ref=e184]:
+                - img [ref=e185]
+                - generic [ref=e187]: Browse By Ingredient
+          - listitem [ref=e188]:
+            - link "Community" [ref=e189] [cursor=pointer]:
+              - /url: https://sallysbaking.raptive.com/
+              - generic [ref=e190]:
+                - img [ref=e191]
+                - generic [ref=e193]: Community
+          - listitem [ref=e194]:
+            - link "Sally’s Shop" [ref=e195] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/baking-tools/
+              - generic [ref=e196]:
+                - img [ref=e197]
+                - generic [ref=e199]: Sally’s Shop
+          - listitem [ref=e200]:
+            - link "Videos" [ref=e201] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/category/video/
+              - generic [ref=e202]:
+                - img [ref=e203]
+                - generic [ref=e205]: Videos
+        - list [ref=e206]:
+          - listitem [ref=e207]:
+            - link "Sally’s Baking Challenge" [ref=e208] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/category/sallys-baking-traditions/sallys-baking-challenge/
+          - listitem [ref=e209]:
+            - link "Type" [ref=e210] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/recipes/
+            - button "Submenu" [ref=e211]:
+              - generic [ref=e212]: Submenu
+              - img [ref=e213]
+          - listitem [ref=e215]:
+            - link "Dietary" [ref=e216] [cursor=pointer]:
+              - /url: "#"
+            - button "Submenu" [ref=e217]:
+              - generic [ref=e218]: Submenu
+              - img [ref=e219]
+          - listitem [ref=e221]:
+            - link "Occasion" [ref=e222] [cursor=pointer]:
+              - /url: "#"
+            - button "Submenu" [ref=e223]:
+              - generic [ref=e224]: Submenu
+              - img [ref=e225]
+          - listitem [ref=e227]:
+            - link "Season" [ref=e228] [cursor=pointer]:
+              - /url: /recipe-index/#seasons
+            - button "Submenu" [ref=e229]:
+              - generic [ref=e230]: Submenu
+              - img [ref=e231]
+          - listitem [ref=e233]:
+            - link "Skill Level" [ref=e234] [cursor=pointer]:
+              - /url: "#"
+            - button "Submenu" [ref=e235]:
+              - generic [ref=e236]: Submenu
+              - img [ref=e237]
+        - list [ref=e239]:
+          - listitem [ref=e240]:
+            - link "About" [ref=e241] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/about/
+          - listitem [ref=e242]:
+            - link "Accessibility" [ref=e243] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/accessibility-statement/
+          - listitem [ref=e244]:
+            - link "Cookbook" [ref=e245] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/sallys-baking-101/
+          - listitem [ref=e246]:
+            - link "Disclosure" [ref=e247] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/disclosure-policy/
+          - listitem [ref=e248]:
+            - link "FAQs" [ref=e249] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/faq/
+          - listitem [ref=e250]:
+            - link "Privacy" [ref=e251] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/privacy-policy/
+        - generic [ref=e252]:
+          - link "facebook" [ref=e253] [cursor=pointer]:
+            - /url: https://www.facebook.com/sallysbakingaddiction/
+            - img [ref=e254]
+          - link "instagram" [ref=e256] [cursor=pointer]:
+            - /url: https://www.instagram.com/sallysbakeblog/
+            - img [ref=e257]
+          - link "pinterest" [ref=e259] [cursor=pointer]:
+            - /url: https://www.pinterest.com/sallysbakeblog/
+            - img [ref=e260]
+          - link "tiktok" [ref=e262] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@sallysbaking
+            - img [ref=e263]
+          - link "youtube" [ref=e265] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/SallysBakingAddictionVideo
+            - img [ref=e266]
+    - generic [ref=e269]:
+      - main [ref=e270]:
+        - article [ref=e271]:
+          - generic [ref=e273]:
+            - generic [ref=e275]:
+              - link "Recipes" [ref=e277] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/recipe-index/
+              - text: ·
+              - link "Pies, Crisps, & Tarts" [ref=e279] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/category/pies-crisps-tarts
+              - text: · Banoffee Pie Recipe
+            - heading "Banoffee Pie Recipe" [level=1] [ref=e280]
+            - generic [ref=e281]:
+              - link "Pin This!" [ref=e282] [cursor=pointer]:
+                - /url: https://pinterest.com/pin/create/button/?url=https://sallysbakingaddiction.com/banoffee-pie/&media=https%3A%2F%2Fsallysbakingaddiction.com%2Fwp-content%2Fuploads%2F2018%2F10%2Fwhipped-cream-banoffee-pie.jpg&description=Banoffee Pie Recipe
+                - img [ref=e283]
+                - generic [ref=e285]: Pin This!
+              - link "168 Comments" [ref=e286] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/banoffee-pie/#comments
+                - img [ref=e287]
+                - text: 168 Comments
+              - link "Jump To Recipe" [ref=e289] [cursor=pointer]:
+                - /url: "#tasty-recipes-66640"
+                - img [ref=e290]
+                - generic [ref=e292]: Jump To Recipe
+            - generic [ref=e293]:
+              - generic [ref=e294]:
+                - img "sally mckenney headshot purple shirt." [ref=e296]
+                - generic [ref=e297]: "Author:"
+                - link [ref=e299] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/about-sally-mckenney/
+                  - text: Sally McKenney
+              - generic [ref=e300]:
+                - generic [ref=e301]: "Updated:"
+                - text: 01/19/2022
+          - generic [ref=e302]:
+            - paragraph [ref=e303]:
+              - emphasis [ref=e304]:
+                - text: This shockingly easy
+                - strong [ref=e305]: banoffee pie recipe
+                - text: combines a crunchy graham cracker crust, soft and sweet dulce de leche, thick slices of fresh banana, and a mountain of billowy whipped cream. Everyone who tries a slice is instantly hooked.
+            - figure [ref=e306]:
+              - img "side view of banoffee pie in a glass pie dish" [ref=e307]
+            - generic [ref=e308]:
+              - text: This post may contain affiliate links. Read our
+              - link "disclosure policy" [ref=e309] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/disclosure-policy/
+              - text: .
+            - paragraph [ref=e310]: "My team and I love all things pie and we’ve worked hard to develop a slew of new recipes over the years, especially around the holiday seasons. Here are some favorites:"
+            - list [ref=e311]:
+              - listitem [ref=e312]:
+                - link "Sweet Potato Pie" [ref=e313] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/brown-sugar-sweet-potato-pie/
+                - text: "&"
+                - link "Pumpkin Pie" [ref=e314] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/the-great-pumpkin-pie-recipe/
+              - listitem [ref=e315]:
+                - link "Nutella Tart" [ref=e316] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/nutella-tart-toasted-hazelnut-crust/
+              - listitem [ref=e317]:
+                - link "Pecan Pie Bars" [ref=e318] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/brown-butter-pecan-pie-bars/
+              - listitem [ref=e319]:
+                - link "Apple Pie" [ref=e320] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/apple-pie-recipe/
+                - text: "&"
+                - link "Apple Cranberry Pie" [ref=e321] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/apple-cranberry-pie/
+              - listitem [ref=e322]:
+                - link "Caramel Pear Pie" [ref=e323] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/caramel-pear-pie/
+              - listitem [ref=e324]:
+                - link "Pecan Pie" [ref=e325] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/my-favorite-pecan-pie-recipe/
+                - text: "&"
+                - link "Chocolate Pecan Pie" [ref=e326] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/dark-chocolate-pecan-pie/
+            - paragraph [ref=e328]:
+              - text: For even more inspiration, here are all of our favorite
+              - link "Thanksgiving pie recipes" [ref=e329] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/thanksgiving-pie-recipes/
+              - text: ". But today, I’m showing you how I make banoffee pie:"
+            - generic [ref=e330]: Advertisement
+            - figure [ref=e331]:
+              - img "banoffee pie with whipped cream on top" [ref=e332]
+            - heading "What Is Banoffee Pie?" [level=2] [ref=e333]
+            - paragraph [ref=e334]: A popular English dessert, banoffee = bananas + toffee. A rich combination of different textures and flavors, banoffee pie combines a cookie/biscuit or graham cracker crust with silky dulce de leche, bananas, and homemade whipped cream. I normally have impeccable self control around all the desserts I bake, but I literally could not put down my fork with this pie. Between the soft, crunchy, creamy, gooey, and sweet—there’s no denying banoffee pie’s allure. You’ll be hooked.
+            - paragraph [ref=e335]:
+              - text: Adding to its appeal, banoffee pie is the EASIEST pie you’ll ever make. The 3-ingredient
+              - link "graham cracker crust" [ref=e336] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/how-to-make-a-perfect-graham-cracker-crust/
+              - text: is pre-baked, but that’s all the oven time required. Just like in
+              - link "strawberry cream cheese pie" [ref=e337] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/strawberry-cream-cheese-pie/
+              - text: ", baking the crust makes the whole pie more sturdy. Layer the remaining ingredients on top, then refrigerate until ready to dig in. That’s it!"
+            - paragraph [ref=e338]:
+              - text: Instead of graham crackers, this pie is also fantastic with a
+              - link "Biscoff pie crust" [ref=e339] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/biscoff-pie-crust/
+              - text: .
+            - generic [ref=e340]: Advertisement
+            - figure [ref=e341]:
+              - img "two hands pressing graham cracker crust into glass pie dish." [ref=e342]
+            - heading "What Is Dulce de Leche?" [level=2] [ref=e343]
+            - paragraph [ref=e344]:
+              - text: Dulce de leche is similar to caramel, but a little sweeter and creamier. It’s prepared by slowly heating sugar and milk until everything caramelizes. If we’re getting all scientific, I learned that a lot of the flavor comes from the
+              - link "Maillard reaction" [ref=e345] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Maillard_reaction
+              - text: . Interesting!
+              - emphasis [ref=e346]: Dulce de leche
+              - text: "is Spanish for candy made/of milk. There are a few ways to prepare dulce de leche including:"
+            - list [ref=e347]:
+              - listitem [ref=e348]: The classic method of cooking down and constantly stirring milk and sugar
+              - listitem [ref=e349]: The shortcut method of cooking sweetened condensed milk
+            - paragraph [ref=e350]: We’re using the shortcut method today, but I included a link to a classic dulce de leche recipe in the recipe notes. Both are delicious!
+            - figure [ref=e351]:
+              - img "2 images of can of sweetened condensed milk and dulce de leche in a glass bowl" [ref=e352]
+            - heading "Dulce de Leche Made From Sweetened Condensed Milk" [level=2] [ref=e353]
+            - paragraph [ref=e354]:
+              - text: There are a couple ways you can make dulce de leche from a can of sweetened condensed milk. You can boil it—the actual closed can—in a pot of water for a couple hours or you can pour the sweetened condensed milk in a pie dish and bake it in a water bath. I prefer the oven method because I’ve heard some pretty scary stories about the hot cans bursting open after boiling for so long.
+              - strong [ref=e355]: "Items you need:"
+            - list [ref=e356]:
+              - listitem [ref=e357]: Large roasting pan
+              - listitem [ref=e358]:
+                - link "Pie dish" [ref=e359] [cursor=pointer]:
+                  - /url: https://amzn.to/4dFDnNU
+              - listitem [ref=e360]: 1 can of sweetened condensed milk
+              - listitem [ref=e361]: Aluminum foil
+            - paragraph [ref=e362]:
+              - strong [ref=e363]: "Instructions:"
+            - list [ref=e364]:
+              - listitem [ref=e365]: Pour the sweetened condensed milk in a pie dish.
+              - listitem [ref=e366]: Place the pie dish in a large roasting pan and place the roasting pan in the oven.
+              - listitem [ref=e367]:
+                - text: Fill the roasting pan with enough HOT water until it reaches halfway up the pie dish. This is exactly what we do when we bake
+                - link "cheesecake" [ref=e368] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/classic-cheesecake/
+                - text: .
+              - listitem [ref=e369]: Loosely cover the pie dish with aluminum foil.
+              - listitem [ref=e370]: Heat oven to 350°F (177°C).
+              - listitem [ref=e371]: Bake until sweetened condensed milk has thickened and caramelized, about 2 hours. Add more hot water after 1 hour, since some of it has evaporated.
+            - generic [ref=e372]: Advertisement
+            - paragraph [ref=e373]:
+              - text: All of the “work” is hands-off. After 2 hours, the sweetened condensed milk has turned into golden dulce de leche.
+              - emphasis [ref=e374]: Magic.
+              - text: Let the dulce de leche cool, then pour into your pre-baked graham cracker crust. You can make the dulce de leche up to 2 weeks in advance.
+            - figure [ref=e375]:
+              - img "pouring dulce de leche onto graham cracker crust" [ref=e376]
+            - figure [ref=e377]:
+              - img "bananas on top of dulce de leche layer" [ref=e378]
+            - figure [ref=e379]:
+              - img "spreading fluffy homemade whipped cream on banoffee pie" [ref=e380]
+            - paragraph [ref=e381]:
+              - text: After that, we have a layer of banana slices. Make sure you use nice yellow bananas and save mushy spotty bananas for recipes like
+              - link "banana bread" [ref=e382] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/best-banana-bread-recipe/
+              - text: and
+              - link "banana muffins" [ref=e383] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/banana-muffins/
+              - text: .
+            - paragraph [ref=e384]:
+              - text: Have you ever had caramel and banana before? This pie is exactly that, but better. A voluminous mountain of soft
+              - link "homemade whipped cream" [ref=e385] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/homemade-whipped-cream/
+              - text: is the finishing touch! Piled high, this creamy layer balances out all the other textures and flavors in this completely irresistible pie.
+            - paragraph [ref=e386]: Banoffee pie is so simple that you’ll feel like you’re doing something wrong. You’re not—it really is this easy. If pie crust isn’t your thing, banoffee pie is!
+            - figure [ref=e387]:
+              - img "slice of banoffee pie on a white plate" [ref=e388]
+            - paragraph [ref=e389]:
+              - text: For even more delicious flavor combinations with bananas, you’ll want to try this
+              - link "peanut butter banana cream pie" [ref=e390] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/peanut-butter-banana-cream-pie/
+              - text: next.
+            - generic [ref=e391]: Advertisement
+            - separator [ref=e392]
+            - paragraph [ref=e393]:
+              - text: This recipe is part of
+              - link "Sally’s Pie Week" [ref=e394] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/category/sallys-baking-traditions/sallys-pie-week/
+              - text: ", an annual tradition where I share a handful of new recipes that fit into the pie/crisp/tart category. Join the community below!"
+            - generic [ref=e398]:
+              - heading "Sally's Pie Week" [level=2] [ref=e400]
+              - paragraph [ref=e402]:
+                - link "Sally's Pie Week" [ref=e403] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/category/sallys-baking-traditions/sallys-pie-week/
+                - text: is my annual November tradition dedicated to baking the BEST pies. Sign up below to get my best pie baking tips and most-loved pie recipes right away, and you’ll automatically be the first to receive all
+                - emphasis [ref=e404]: new
+                - text: Sally’s Pie Week recipes when they’re released next November!
+              - generic [ref=e405]:
+                - textbox "Your first name" [ref=e407]
+                - textbox "Your email address" [ref=e409]
+                - button [ref=e411]:
+                  - group [ref=e412]:
+                    - generic [ref=e414] [cursor=pointer]: I agree to receive emails from Sally's Baking Recipes!
+                - button "Yes, Sign Me Up" [ref=e415] [cursor=pointer]:
+                  - generic [ref=e416]: Yes, Sign Me Up
+              - paragraph [ref=e418]: We respect your privacy. Unsubscribe at any time.
+            - generic [ref=e423]:
+              - heading "Want to Save This Recipe?" [level=2] [ref=e425]
+              - paragraph [ref=e427]: Enter your email below, and we’ll send the link straight to your inbox. Plus, you'll join 350,000 fellow bakers and receive my trusted baking recipes each week!
+              - generic [ref=e428]:
+                - textbox "Email Address" [ref=e430]
+                - textbox "First Name" [ref=e432]
+                - button [ref=e434]:
+                  - group [ref=e435]:
+                    - generic [ref=e437] [cursor=pointer]: I agree to receive emails from Sally's Baking Recipes!
+                - button "Subscribe" [ref=e438] [cursor=pointer]:
+                  - generic [ref=e439]: Subscribe
+            - generic [ref=e441]:
+              - generic [ref=e442]:
+                - img "spreading fluffy homemade whipped cream on banoffee pie" [ref=e444]
+                - generic [ref=e445]:
+                  - heading "Banoffee Pie" [level=2] [ref=e446]
+                  - generic [ref=e448]:
+                    - generic [ref=e450]:
+                      - generic [ref=e452] [cursor=pointer]:
+                        - img [ref=e454]
+                        - generic [ref=e456]: 5 Stars
+                      - generic [ref=e458] [cursor=pointer]:
+                        - img [ref=e460]
+                        - generic [ref=e462]: 4 Stars
+                      - generic [ref=e464] [cursor=pointer]:
+                        - img [ref=e466]
+                        - generic [ref=e468]: 3 Stars
+                      - generic [ref=e470] [cursor=pointer]:
+                        - img [ref=e472]
+                        - generic [ref=e474]: 2 Stars
+                      - generic [ref=e476] [cursor=pointer]:
+                        - img [ref=e478]
+                        - generic [ref=e480]: 1 Star
+                    - generic [ref=e482]: 4.8 from 38 reviews
+                  - list [ref=e484]:
+                    - listitem [ref=e485]:
+                      - text: "Author:"
+                      - link "Sally McKenney" [ref=e486] [cursor=pointer]:
+                        - /url: https://sallysbakingaddiction.com/about-sally-mckenney/
+                    - listitem [ref=e487]:
+                      - generic [ref=e488]:
+                        - img [ref=e489]
+                        - text: "Prep Time:"
+                      - text: 20 minutes
+                    - listitem [ref=e491]:
+                      - generic [ref=e492]:
+                        - img [ref=e493]
+                        - text: "Cook Time:"
+                      - text: 15 minutes
+                    - listitem [ref=e495]:
+                      - generic [ref=e496]:
+                        - img [ref=e497]
+                        - text: "Total Time:"
+                      - text: 3 hours, 35 minutes
+                    - listitem [ref=e499]:
+                      - generic [ref=e500]:
+                        - img [ref=e501]
+                        - text: "Yield:"
+                      - text: 8-10 servings
+                  - generic [ref=e503]:
+                    - link "Print Recipe" [ref=e505] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/banoffee-pie/print/66640/
+                      - img [ref=e506]
+                      - text: Print Recipe
+                    - link "Save Recipe" [ref=e509] [cursor=pointer]:
+                      - /url: javascript:void(0)
+                      - generic [ref=e510]:
+                        - img [ref=e511]
+                        - text: Save Recipe
+              - generic [ref=e513]:
+                - separator [ref=e514]
+                - generic [ref=e515]:
+                  - heading "Description" [level=3] [ref=e516]
+                  - paragraph [ref=e518]:
+                    - emphasis [ref=e519]: This shockingly easy banoffee pie combines a crunchy graham cracker crust, soft and sweet dulce de leche, thick slices of fresh banana, and a mountain of billowy whipped cream. Everyone who tries a slice is instantly hooked.
+                - separator [ref=e520]
+                - generic [ref=e521]:
+                  - heading "Ingredients" [level=3] [ref=e524]
+                  - generic [ref=e525]:
+                    - list [ref=e526]:
+                      - listitem [ref=e528] [cursor=pointer]:
+                        - checkbox "1 and 1/2 cups (180g) graham cracker crumbs (about 12 full sheet graham crackers)" [ref=e530]
+                        - text: 1 and 1/2 cups (180g)
+                        - strong [ref=e532]: graham cracker crumbs
+                        - text: (about 12 full sheet graham crackers)
+                      - listitem [ref=e533] [cursor=pointer]:
+                        - checkbox "1/4 cup (50g) granulated sugar" [ref=e535]
+                        - text: 1/4 cup (50g)
+                        - strong [ref=e537]: granulated sugar
+                      - listitem [ref=e538] [cursor=pointer]:
+                        - checkbox "6 Tablespoons (85g) unsalted butter, melted" [ref=e540]
+                        - text: 6 Tablespoons (85g)
+                        - strong [ref=e542]: unsalted butter
+                        - text: ", melted"
+                      - listitem [ref=e543] [cursor=pointer]:
+                        - checkbox "1 and 1/4 cups dulce de leche**" [ref=e545]
+                        - text: 1 and 1/4 cups
+                        - strong [ref=e547]: dulce de leche
+                        - text: "**"
+                      - listitem [ref=e548] [cursor=pointer]:
+                        - checkbox "2 large bananas, sliced" [ref=e550]
+                        - text: 2 large
+                        - strong [ref=e552]: bananas,
+                        - text: sliced
+                    - heading "Whipped Cream" [level=4] [ref=e553]
+                    - list [ref=e554]:
+                      - listitem [ref=e555] [cursor=pointer]:
+                        - checkbox "2 cups (480ml) cold heavy cream or heavy whipping cream" [ref=e557]
+                        - text: 2 cups (480ml) cold
+                        - strong [ref=e559]: heavy cream
+                        - text: or
+                        - strong [ref=e560]: heavy whipping cream
+                      - listitem [ref=e561] [cursor=pointer]:
+                        - checkbox "1/4 cup confectioners’ sugar or granulated sugar*" [ref=e563]
+                        - text: 1/4 cup
+                        - strong [ref=e565]: confectioners’ sugar
+                        - text: or
+                        - strong [ref=e566]: granulated sugar*
+                      - listitem [ref=e568] [cursor=pointer]:
+                        - checkbox "1 teaspoon pure vanilla extract" [ref=e570]
+                        - text: 1 teaspoon
+                        - strong [ref=e572]: pure vanilla extract
+                      - listitem [ref=e573] [cursor=pointer]:
+                        - 'checkbox "optional toppings: chocolate shavings, chopped nuts, or toffee bits for garnish" [ref=e575]'
+                        - text: "optional toppings: chocolate shavings, chopped nuts, or toffee bits for garnish"
+                    - paragraph
+                  - generic [ref=e581]: Cook Mode Prevent your screen from going dark
+                - separator [ref=e582]
+                - generic [ref=e583]:
+                  - heading "Instructions" [level=3] [ref=e585]
+                  - list [ref=e587]:
+                    - listitem [ref=e588]: Preheat oven to 350°F (177°C).
+                    - listitem [ref=e590]:
+                      - strong [ref=e591]: "Make the crust:"
+                      - text: If you’re starting out with full graham crackers, use a
+                      - link "food processor" [ref=e592] [cursor=pointer]:
+                        - /url: https://amzn.to/3zNDEZw
+                      - text: or blender to grind them into fine crumbs. Stir the graham cracker crumbs and granulated sugar together in a medium bowl, and then stir in the melted butter. The mixture will be thick, coarse, and sandy. Try to smash/break up any large chunks. Pour the mixture into an ungreased
+                      - link "9-inch pie dish" [ref=e593] [cursor=pointer]:
+                        - /url: https://amzn.to/4dFDnNU
+                      - text: . With medium pressure using your hand, pat the crumbs down into the bottom and up the sides to make a compact crust. Do not pack down with heavy force because that makes the crust too hard. Simply pat down until the mixture is no longer crumby/crumbly.
+                      - emphasis [ref=e594]:
+                        - strong [ref=e595]: "Tips:"
+                        - text: You can use a small flat-bottomed measuring cup to help press down the bottom crust and smooth out the surface, but do not pack down too hard. And run a spoon around the bottom “corner” where the edge and bottom meet to help make a rounded crust⁠—this helps prevent the crust from falling apart. For more shaping technique tips, see the
+                        - link "graham cracker crust" [ref=e596] [cursor=pointer]:
+                          - /url: https://sallysbakingaddiction.com/how-to-make-a-perfect-graham-cracker-crust/
+                        - text: recipe page.
+                    - listitem [ref=e597]: Bake the crust for 15 minutes. Cool for 15 minutes.
+                    - listitem [ref=e598]:
+                      - strong [ref=e599]: "For the whipped cream:"
+                      - text: Using a hand mixer or a stand mixer fitted with a whisk attachment, whip the heavy cream, sugar, and vanilla extract on medium-high speed until medium peaks form, about 3-4 minutes. Medium peaks are between soft/loose peaks and stiff peaks and are the perfect consistency for topping and piping on desserts.
+                    - listitem [ref=e600]: Spread dulce de leche on top of the crust. Arrange banana slices in 1–2 layers on top of the dulce de leche, then spread whipped cream on top.
+                    - listitem [ref=e602]: Refrigerate pie uncovered for at least 2 hours and up to 1 day. Garnish with toppings before serving, if desired.
+                    - listitem [ref=e603]: Cover and store leftover pie in the refrigerator for up to 5 days.
+                - separator [ref=e604]
+                - generic [ref=e605]:
+                  - heading "Notes" [level=3] [ref=e606]
+                  - list [ref=e608]:
+                    - listitem [ref=e610]:
+                      - strong [ref=e611]: "Make Ahead Instructions:"
+                      - text: Cover the baked and cooled graham cracker crust tightly and store in the refrigerator for up to 2 days or freeze for up to 3 months. Thaw in the refrigerator before using. Dulce de leche, instructions below, can be made up to 2 weeks in advance. Cover tightly and store in the refrigerator. The fully assembled pie can be prepared up to 1 day in advance. Store uncovered in the refrigerator until ready to serve. I don’t recommend freezing the prepared banoffee pie because it doesn’t thaw very nicely, but you can certainly freeze any leftover slices for up to 3 months.
+                    - listitem [ref=e612]:
+                      - strong [ref=e613]: Special Tools
+                      - text: "(affiliate links):"
+                      - link "Food Processor" [ref=e614] [cursor=pointer]:
+                        - /url: https://amzn.to/3zNDEZw
+                      - text: "|"
+                      - link "Glass Mixing Bowl" [ref=e615] [cursor=pointer]:
+                        - /url: https://amzn.to/3mPQvWq
+                      - text: "|"
+                      - link "9-inch Pie Dish" [ref=e616] [cursor=pointer]:
+                        - /url: https://amzn.to/4dFDnNU
+                      - text: "| Electric Mixer ("
+                      - link "Handheld" [ref=e617] [cursor=pointer]:
+                        - /url: https://amzn.to/3W5TmJc
+                      - text: or
+                      - link "Stand" [ref=e618] [cursor=pointer]:
+                        - /url: https://amzn.to/3OMbx3g
+                      - text: )
+                    - listitem [ref=e620]:
+                      - strong [ref=e621]: "Dulce de Leche:"
+                      - text: You can use store-bought dulce de leche, but I recommend making it at home. You can make it
+                      - link "completely from scratch" [ref=e622] [cursor=pointer]:
+                        - /url: https://www.foodnetwork.com/recipes/alton-brown/dulce-de-leche-recipe-1948282
+                      - text: "or use 1 (standard 14-ounce/397g) can of sweetened condensed milk. Instructions: Pour the sweetened condensed milk in a pie dish. Place the pie dish in a large roasting pan and place the roasting pan in the oven. Fill the roasting pan with enough HOT water until it reaches halfway up the pie dish. Loosely cover the pie dish with aluminum foil. Heat oven to 350°F (177°C). Bake until sweetened condensed milk has thickened and caramelized, about 2 hours. Add more hot water to the roasting pan after 1 hour, since some of it has evaporated. After 2 hours, the sweetened condensed milk has turned into golden dulce de leche. (If not, continue to bake.) Let the dulce de leche cool, then pour into your pre-baked graham cracker crust. You can make the dulce de leche up to 2 weeks in advance."
+                    - listitem [ref=e623]:
+                      - strong [ref=e624]: "Bananas Browning:"
+                      - text: Though I haven’t experienced the bananas browning underneath the whipped cream, you can certainly squeeze a few drops of fresh lemon juice all over the banana slices before layering them into the pie. This keeps the banana slices fresh, especially if you’re making the pie a day in advance. With a small amount of juice, you won’t detect the lemon flavor.
+                    - listitem [ref=e625]:
+                      - strong [ref=e626]: "Non-US Readers:"
+                      - text: If graham crackers are not available where you live, we have also tested this pie with a crust made from digestive biscuits, and it turned out great. Use 200g ground digestive biscuit crumbs (about 2 cups; 13–14 biscuits), 1/3 cup (67g) granulated sugar, and 6 Tablespoons (85g) melted butter. Pre-bake the crust for a bit longer, about 16-17 minutes.
+            - figure [ref=e627]:
+              - img "slice of banoffee pie with a fork cutting a bite" [ref=e628]
+            - generic [ref=e631]:
+              - heading "Sally's Pie Week" [level=2] [ref=e633]
+              - paragraph [ref=e635]:
+                - link "Sally's Pie Week" [ref=e636] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/category/sallys-baking-traditions/sallys-pie-week/
+                - text: is my annual November tradition dedicated to baking the BEST pies. Sign up below to get my best pie baking tips and most-loved pie recipes right away, and you’ll automatically be the first to receive all
+                - emphasis [ref=e637]: new
+                - text: Sally’s Pie Week recipes when they’re released next November!
+              - generic [ref=e638]:
+                - textbox "Your first name" [ref=e640]
+                - textbox "Your email address" [ref=e642]
+                - button [ref=e644]:
+                  - group [ref=e645]:
+                    - generic [ref=e647] [cursor=pointer]: I agree to receive emails from Sally's Baking Recipes!
+                - button "Yes, Sign Me Up" [ref=e648] [cursor=pointer]:
+                  - generic [ref=e649]: Yes, Sign Me Up
+              - paragraph [ref=e651]: We respect your privacy. Unsubscribe at any time.
+          - generic [ref=e653]:
+            - link "Pinterest" [ref=e654] [cursor=pointer]:
+              - /url: https://pinterest.com/pin/create/button/?url=https://sallysbakingaddiction.com/banoffee-pie/&media=https%3A%2F%2Fsallysbakingaddiction.com%2Fwp-content%2Fuploads%2F2018%2F10%2Fwhipped-cream-banoffee-pie.jpg&description=Banoffee Pie Recipe
+              - img [ref=e655]
+              - generic [ref=e657]: Pinterest
+            - link "Facebook" [ref=e658] [cursor=pointer]:
+              - /url: http://www.facebook.com/share.php?u=https://sallysbakingaddiction.com/banoffee-pie/&t=Banoffee Pie Recipe
+              - img [ref=e659]
+              - generic [ref=e661]: Facebook
+            - link "Email" [ref=e662] [cursor=pointer]:
+              - /url: "mailto:?body=I thought you might enjoy this post: Banoffee Pie Recipe, https://sallysbakingaddiction.com/banoffee-pie/"
+              - img [ref=e663]
+              - generic [ref=e665]: Email
+          - generic [ref=e666]:
+            - heading "You Might Also Like..." [level=2] [ref=e667]
+            - generic [ref=e668]:
+              - article [ref=e669]:
+                - link [ref=e670] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/rum-balls-recipe/
+                  - img [ref=e671]
+                - generic [ref=e672]:
+                  - heading "Festive & Easy Rum Balls" [level=3] [ref=e673]:
+                    - link "Festive & Easy Rum Balls" [ref=e674] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/rum-balls-recipe/
+                  - generic [ref=e675]:
+                    - img [ref=e676]
+                    - link "83 Comments" [ref=e679] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/rum-balls-recipe/#comments
+              - article [ref=e680]:
+                - link [ref=e681] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/chewy-fudgy-frosted-brownies/
+                  - img [ref=e682]
+                - generic [ref=e683]:
+                  - heading "Chewy Fudgy Frosted Brownies" [level=3] [ref=e684]:
+                    - link "Chewy Fudgy Frosted Brownies" [ref=e685] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/chewy-fudgy-frosted-brownies/
+                  - generic [ref=e686]:
+                    - img [ref=e687]
+                    - link "577 Comments" [ref=e690] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/chewy-fudgy-frosted-brownies/#comments
+              - article [ref=e691]:
+                - link [ref=e692] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/blueberry-sauce-topping/
+                  - img [ref=e693]
+                - generic [ref=e694]:
+                  - heading "Blueberry Sauce Topping" [level=3] [ref=e695]:
+                    - link "Blueberry Sauce Topping" [ref=e696] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/blueberry-sauce-topping/
+                  - generic [ref=e697]:
+                    - img [ref=e698]
+                    - link "96 Comments" [ref=e701] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/blueberry-sauce-topping/#comments
+              - article [ref=e702]:
+                - link [ref=e703] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/loaded-oatmeal-cookies/
+                  - img [ref=e704]
+                - generic [ref=e705]:
+                  - heading "Loaded Oatmeal Cookies" [level=3] [ref=e706]:
+                    - link "Loaded Oatmeal Cookies" [ref=e707] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/loaded-oatmeal-cookies/
+                  - generic [ref=e708]:
+                    - img [ref=e709]
+                    - link "44 Comments" [ref=e712] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/loaded-oatmeal-cookies/#comments
+        - generic [ref=e715]:
+          - img "sally mckenney headshot purple shirt." [ref=e717]
+          - generic [ref=e718]:
+            - generic [ref=e719]: About the Author
+            - heading "Sally McKenney" [level=2] [ref=e720]
+            - paragraph [ref=e722]: Sally McKenney is a baker, food photographer, and New York Times best-selling author. Her kitchen-tested recipes and step-by-step tutorials have given millions of readers the knowledge and confidence to bake from scratch. Sally’s work has been featured on TODAY, Good Morning America, Taste of Home, People, and more.
+            - link "Read More" [ref=e723] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/about-sally-mckenney/
+              - generic [ref=e724]: Read More
+              - img [ref=e725]
+            - generic [ref=e727]:
+              - link "facebook" [ref=e728] [cursor=pointer]:
+                - /url: https://www.facebook.com/SallysBakingAddiction
+                - img [ref=e729]
+              - link "instagram" [ref=e731] [cursor=pointer]:
+                - /url: http://instagram.com/sallysbakeblog/
+                - img [ref=e732]
+              - link "pinterest" [ref=e734] [cursor=pointer]:
+                - /url: http://pinterest.com/sallysbakeblog/
+                - img [ref=e735]
+              - link "tiktok" [ref=e737] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@sallysbaking
+                - img [ref=e738]
+              - link "youtube" [ref=e740] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/SallysBakingAddictionVideo
+                - img [ref=e741]
+        - generic [ref=e743]:
+          - generic [ref=e744]:
+            - heading "Leave a Comment" [level=2] [ref=e745]: Leave a Comment
+            - generic [ref=e746]:
+              - paragraph [ref=e747]:
+                - text: Your email address will not be published.
+                - generic [ref=e748]: Required fields are marked *
+              - group "Recipe rating" [ref=e749]:
+                - generic [ref=e750]: Recipe rating
+                - generic [ref=e751]:
+                  - radio "Rate this recipe 5 stars" [ref=e752] [cursor=pointer]
+                  - generic [ref=e754] [cursor=pointer]:
+                    - img [ref=e756]
+                    - generic [ref=e758]: 5 Stars
+                  - radio "Rate this recipe 4 stars" [ref=e759] [cursor=pointer]
+                  - generic [ref=e761] [cursor=pointer]:
+                    - img [ref=e763]
+                    - generic [ref=e765]: 4 Stars
+                  - radio "Rate this recipe 3 stars" [ref=e766] [cursor=pointer]
+                  - generic [ref=e768] [cursor=pointer]:
+                    - img [ref=e770]
+                    - generic [ref=e772]: 3 Stars
+                  - radio "Rate this recipe 2 stars" [ref=e773] [cursor=pointer]
+                  - generic [ref=e775] [cursor=pointer]:
+                    - img [ref=e777]
+                    - generic [ref=e779]: 2 Stars
+                  - radio "Rate this recipe 1 star" [ref=e780] [cursor=pointer]
+                  - generic [ref=e782] [cursor=pointer]:
+                    - img [ref=e784]
+                    - generic [ref=e786]: 1 Star
+              - paragraph [ref=e787]:
+                - generic [ref=e788]: Comment *
+                - textbox "Comment *" [ref=e789]
+              - paragraph [ref=e790]:
+                - generic [ref=e791]: Name *
+                - textbox "Name *" [ref=e792]
+              - paragraph [ref=e793]:
+                - generic [ref=e794]: Email *
+                - textbox "Email *" [ref=e795]
+              - paragraph [ref=e796]:
+                - checkbox "Save my name, email, and website in this browser for the next time I comment." [ref=e797]
+                - text: Save my name, email, and website in this browser for the next time I comment.
+              - paragraph [ref=e798]:
+                - button "Post Comment" [ref=e799] [cursor=pointer]
+          - paragraph [ref=e800]:
+            - text: This site uses Akismet to reduce spam.
+            - link "Learn how your comment data is processed." [ref=e801] [cursor=pointer]:
+              - /url: https://akismet.com/privacy/
+          - heading "Reader Comments and Reviews" [level=2] [ref=e802]
+          - list [ref=e803]:
+            - listitem [ref=e804]:
+              - article [ref=e805]:
+                - generic [ref=e806]:
+                  - generic [ref=e807]: "Jenn says:"
+                  - generic [ref=e808]: May 30, 2026
+                - paragraph [ref=e810]: I’m a little confused, how do not that many think this is way too sweet. I eat quite a lot of sugary things in my everyday and since the crackers already have sugar in them I put a little less sugar than the recipe says in both the bottom and the cream but it turned out sickeningly sweet and I feel like the sugar in the crust is even still crunchy.
+                - link "Reply to Jenn" [ref=e811] [cursor=pointer]:
+                  - /url: "#comment-1499081"
+                  - text: Reply
+            - listitem [ref=e812]:
+              - article [ref=e813]:
+                - generic [ref=e814]:
+                  - generic [ref=e815]: "vbkim says:"
+                  - generic [ref=e816]: May 24, 2026
+                - paragraph [ref=e818]: So delicious! I went with the completely from scratch dulce de leche and extra bananas, but other than that made exactly as instructed and we were in love! I too had the reported runny dulce de leche but the taste was so amazing we didn’t care. Will make again!
+                - link "Reply to vbkim" [ref=e819] [cursor=pointer]:
+                  - /url: "#comment-1497396"
+                  - text: Reply
+            - listitem [ref=e820]:
+              - article [ref=e821]:
+                - generic [ref=e822]:
+                  - generic [ref=e823]: "Paula says:"
+                  - generic [ref=e824]: May 14, 2026
+                - paragraph [ref=e826]: Can this be done with a meringue topping instead of whipped cream?
+                - link "Reply to Paula" [ref=e827] [cursor=pointer]:
+                  - /url: "#comment-1494336"
+                  - text: Reply
+              - list [ref=e828]:
+                - listitem [ref=e829]:
+                  - article [ref=e830]:
+                    - generic [ref=e831]:
+                      - generic [ref=e832]: "Lexi @ Sally's Baking says:"
+                      - generic [ref=e833]: May 15, 2026
+                    - paragraph [ref=e835]:
+                      - text: Hi Paula, you could use a
+                      - link "marshmallow meringue" [ref=e836] [cursor=pointer]:
+                        - /url: https://sallysbakingaddiction.com/homemade-marshmallow-creme/
+                      - text: ", since it is cooked gently on the stove before whipping and using on baked goods. We wouldn’t recommend a meringue that needs to bake in the oven, since the filling for this pie is no-bake. Hope this helps!"
+                    - link "Reply to Lexi @ Sally's Baking" [ref=e837] [cursor=pointer]:
+                      - /url: "#comment-1494534"
+                      - text: Reply
+            - listitem [ref=e838]:
+              - article [ref=e839]:
+                - generic [ref=e840]:
+                  - generic [ref=e841]: "Joanne French says:"
+                  - generic [ref=e842]: May 3, 2026
+                - paragraph [ref=e844]: This is not the best way to make dulche de leche. Mine was a complete fail. Overcooked, curdled and not creamy. Better to cook it in the can in a water bath. Or buy pre-made in a. Jar. The rest of pie was extraordinarily delicious.
+                - link "Reply to Joanne French" [ref=e845] [cursor=pointer]:
+                  - /url: "#comment-1490253"
+                  - text: Reply
+            - listitem [ref=e846]:
+              - article [ref=e847]:
+                - generic [ref=e848]:
+                  - generic [ref=e849]: "Beth says:"
+                  - generic [ref=e850]: March 14, 2026
+                - generic [ref=e851]:
+                  - paragraph [ref=e852]:
+                    - text: As always, a delicious recipe! If you’re using jarred/canned dulce de leche, I recommend scooping into a heatproof bowl and then microwaving just briefly to soften.
+                    - text: It’s thick and stiff, and spreading it around ripped up my pie crust. I glued it back together with the dulce, but it would have been easier if I had softened it first.
+                  - paragraph [ref=e853]:
+                    - img [ref=e855] [cursor=pointer]
+                    - img [ref=e858] [cursor=pointer]
+                    - img [ref=e861] [cursor=pointer]
+                    - img [ref=e864] [cursor=pointer]
+                    - img [ref=e867] [cursor=pointer]
+                - link "Reply to Beth" [ref=e869] [cursor=pointer]:
+                  - /url: "#comment-1465315"
+                  - text: Reply
+            - listitem [ref=e870]:
+              - article [ref=e871]:
+                - generic [ref=e872]:
+                  - generic [ref=e873]: "Valerie says:"
+                  - generic [ref=e874]: December 19, 2025
+                - paragraph [ref=e876]: I made this with Biscoff cookies instead of graham crackers and it was amazing! It complimented the banana so well! Thank you for recipe! I saw Banoffie pie on the Holiday Baking Championship show and I just had to try it
+                - link "Reply to Valerie" [ref=e877] [cursor=pointer]:
+                  - /url: "#comment-1400935"
+                  - text: Reply
+            - listitem [ref=e878]:
+              - article [ref=e879]:
+                - generic [ref=e880]:
+                  - generic [ref=e881]: "Brooke Moench says:"
+                  - generic [ref=e882]: November 26, 2025
+                - paragraph [ref=e884]: I made the carmel sauce early. You said it can be stored on for 2 weeks. Should it be stored on the counter or fridge?
+                - link "Reply to Brooke Moench" [ref=e885] [cursor=pointer]:
+                  - /url: "#comment-1391248"
+                  - text: Reply
+              - list [ref=e886]:
+                - listitem [ref=e887]:
+                  - article [ref=e888]:
+                    - generic [ref=e889]:
+                      - generic [ref=e890]: "Michelle @ Sally's Baking says:"
+                      - generic [ref=e891]: November 27, 2025
+                    - paragraph [ref=e893]: Hi Brooke, covered tightly, it can be stored in the fridge.
+                    - link "Reply to Michelle @ Sally's Baking" [ref=e894] [cursor=pointer]:
+                      - /url: "#comment-1391352"
+                      - text: Reply
+            - listitem [ref=e895]:
+              - article [ref=e896]:
+                - generic [ref=e897]:
+                  - generic [ref=e898]: "Mónica Ayala Coria says:"
+                  - generic [ref=e899]: November 3, 2025
+                - paragraph [ref=e901]: El dulce de leche es un producto de origen argentino, se puede comprar en lata, es más parecido a la cajeta mexicana.
+                - link "Reply to Mónica Ayala Coria" [ref=e902] [cursor=pointer]:
+                  - /url: "#comment-1380930"
+                  - text: Reply
+            - listitem [ref=e903]:
+              - article [ref=e904]:
+                - generic [ref=e905]:
+                  - generic [ref=e906]: "Ruzgar says:"
+                  - generic [ref=e907]: October 26, 2025
+                - paragraph [ref=e909]: Can I make this in a 9 inch tart pan?
+                - link "Reply to Ruzgar" [ref=e910] [cursor=pointer]:
+                  - /url: "#comment-1376644"
+                  - text: Reply
+              - list [ref=e911]:
+                - listitem [ref=e912]:
+                  - article [ref=e913]:
+                    - generic [ref=e914]:
+                      - generic [ref=e915]: "Lexi @ Sally's Baking says:"
+                      - generic [ref=e916]: October 27, 2025
+                    - paragraph [ref=e918]: Hi Ruzgar, a tart pan will be a bit too shallow for this full recipe, but you can try scaling it down a bit. Let us know if you try it.
+                    - link "Reply to Lexi @ Sally's Baking" [ref=e919] [cursor=pointer]:
+                      - /url: "#comment-1378274"
+                      - text: Reply
+            - listitem [ref=e920]:
+              - article [ref=e921]:
+                - generic [ref=e922]:
+                  - generic [ref=e923]: "Shana B says:"
+                  - generic [ref=e924]: October 25, 2025
+                - generic [ref=e925]:
+                  - paragraph [ref=e926]: I first heard of this recipe on the Great British Baking Show and I knew I had to make it. Thank you for sharing this incredibly easy and delicious recipe! Absolutely a hit and will be making again!
+                  - paragraph [ref=e927]:
+                    - img [ref=e929] [cursor=pointer]
+                    - img [ref=e932] [cursor=pointer]
+                    - img [ref=e935] [cursor=pointer]
+                    - img [ref=e938] [cursor=pointer]
+                    - img [ref=e941] [cursor=pointer]
+                - link "Reply to Shana B" [ref=e943] [cursor=pointer]:
+                  - /url: "#comment-1376560"
+                  - text: Reply
+            - listitem [ref=e944]:
+              - article [ref=e945]:
+                - generic [ref=e946]:
+                  - generic [ref=e947]: "Laura says:"
+                  - generic [ref=e948]: July 6, 2025
+                - generic [ref=e949]:
+                  - paragraph [ref=e950]: The pie was delicious. I added some salted cashews to the bottom layer. It was a little too sweet for my liking. I think next time I would put less of the condensed milk on the bottom– just enough to create a layer. It also got a bit wet as the bananas released juice. Next time I would make sure to let the condensed milk cool even further, put the condensed milk layer into the crust and put it in the fridge before adding the bananas. I would also whip the cream to be closer to stiff peaks as it seemed to lose fluffiness after several hours.
+                  - paragraph [ref=e951]:
+                    - img [ref=e953] [cursor=pointer]
+                    - img [ref=e956] [cursor=pointer]
+                    - img [ref=e959] [cursor=pointer]
+                    - img [ref=e962] [cursor=pointer]
+                    - img [ref=e965] [cursor=pointer]
+                - link "Reply to Laura" [ref=e967] [cursor=pointer]:
+                  - /url: "#comment-1326264"
+                  - text: Reply
+            - listitem [ref=e968]:
+              - article [ref=e969]:
+                - generic [ref=e970]:
+                  - generic [ref=e971]: "Jane C says:"
+                  - generic [ref=e972]: May 23, 2025
+                - paragraph [ref=e974]: Love this pie! Pretty easy to make and so good. Brought it to a friend’s for dinner and the four of us ate it all!
+                - link "Reply to Jane C" [ref=e975] [cursor=pointer]:
+                  - /url: "#comment-1311864"
+                  - text: Reply
+            - listitem [ref=e976]:
+              - article [ref=e977]:
+                - generic [ref=e978]:
+                  - generic [ref=e979]: "Mary says:"
+                  - generic [ref=e980]: May 17, 2025
+                - paragraph [ref=e982]: Can you use sweetened condensed oat milk?
+                - link "Reply to Mary" [ref=e983] [cursor=pointer]:
+                  - /url: "#comment-1310029"
+                  - text: Reply
+              - list [ref=e984]:
+                - listitem [ref=e985]:
+                  - article [ref=e986]:
+                    - generic [ref=e987]:
+                      - generic [ref=e988]: "Trina @ Sally's Baking says:"
+                      - generic [ref=e989]: May 17, 2025
+                    - paragraph [ref=e991]: We haven’t tested that, Mary! Let us know if you do.
+                    - link "Reply to Trina @ Sally's Baking" [ref=e992] [cursor=pointer]:
+                      - /url: "#comment-1310053"
+                      - text: Reply
+            - listitem [ref=e993]:
+              - article [ref=e994]:
+                - generic [ref=e995]:
+                  - generic [ref=e996]: "Pauline Peterson says:"
+                  - generic [ref=e997]: April 25, 2025
+                - paragraph [ref=e999]: This recipe is BOMB! One of the best pies I have ever had (and as a French person, I’m posh about food). In France, it is common to use Biscoff cookies (we call them Speculoos) to replace Graham Crackers, so I continue to do so, even though I live in the US now. I added the same amount of butter (European grass-fed salted butter, of course) and sugar and packed it tightly with a glass. It kind of caramelized once baked; it was delicious. I made my own dulce de leche in the oven. It was so good that I made another pie two days later (you don’t want these bananas to go to waste, do you?). Thank you for this recipe!
+                - link "Reply to Pauline Peterson" [ref=e1000] [cursor=pointer]:
+                  - /url: "#comment-1304065"
+                  - text: Reply
+          - navigation [ref=e1001]:
+            - heading "Comment navigation" [level=3] [ref=e1002]
+            - link "Older Comments" [ref=e1005] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/banoffee-pie/comment-page-3/#comments
+      - complementary [ref=e1006]:
+        - generic [ref=e1007]:
+          - generic [ref=e1009]:
+            - img "sally mckenney headshot purple shirt." [ref=e1011]
+            - generic [ref=e1012]:
+              - generic [ref=e1013]: About the Author
+              - heading "Sally McKenney" [level=2] [ref=e1014]
+              - paragraph [ref=e1016]: Sally McKenney is a baker, food photographer, and New York Times best-selling author. Her kitchen-tested recipes and step-by-step tutorials have given millions of readers the knowledge and confidence to bake from scratch. Sally’s work has been featured on TODAY, Good Morning America, Taste of Home, People, and more.
+              - link "Read More" [ref=e1017] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/about-sally-mckenney/
+                - generic [ref=e1018]: Read More
+                - img [ref=e1019]
+              - generic [ref=e1021]:
+                - link "facebook" [ref=e1022] [cursor=pointer]:
+                  - /url: https://www.facebook.com/SallysBakingAddiction
+                  - img [ref=e1023]
+                - link "instagram" [ref=e1025] [cursor=pointer]:
+                  - /url: http://instagram.com/sallysbakeblog/
+                  - img [ref=e1026]
+                - link "pinterest" [ref=e1028] [cursor=pointer]:
+                  - /url: http://pinterest.com/sallysbakeblog/
+                  - img [ref=e1029]
+                - link "tiktok" [ref=e1031] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@sallysbaking
+                  - img [ref=e1032]
+                - link "youtube" [ref=e1034] [cursor=pointer]:
+                  - /url: https://www.youtube.com/c/SallysBakingAddictionVideo
+                  - img [ref=e1035]
+          - generic [ref=e1038]:
+            - heading "Popular Right Now" [level=2] [ref=e1040]
+            - generic [ref=e1042]:
+              - article [ref=e1043]:
+                - link [ref=e1044] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/4th-of-july-desserts/
+                  - img [ref=e1045]
+                - generic [ref=e1046]:
+                  - heading "25 4th of July Desserts Everyone Loves" [level=3] [ref=e1047]:
+                    - link "25 4th of July Desserts Everyone Loves" [ref=e1048] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/4th-of-july-desserts/
+                  - generic [ref=e1049]:
+                    - img [ref=e1050]
+                    - link "16 Comments" [ref=e1053] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/4th-of-july-desserts/#comments
+              - article [ref=e1054]:
+                - link [ref=e1055] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/cherry-pie/
+                  - img [ref=e1056]
+                - generic [ref=e1057]:
+                  - heading "Homemade Cherry Pie (With Thick Filling)" [level=3] [ref=e1058]:
+                    - link "Homemade Cherry Pie (With Thick Filling)" [ref=e1059] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/cherry-pie/
+                  - generic [ref=e1060]:
+                    - img [ref=e1061]
+                    - link "649 Comments" [ref=e1064] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/cherry-pie/#comments
+              - article [ref=e1065]:
+                - link [ref=e1066] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/peach-cake/
+                  - img [ref=e1067]
+                - generic [ref=e1068]:
+                  - heading "Fresh Peach Cake (Extra Peaches!)" [level=3] [ref=e1069]:
+                    - link "Fresh Peach Cake (Extra Peaches!)" [ref=e1070] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/peach-cake/
+                  - generic [ref=e1071]:
+                    - img [ref=e1072]
+                    - link "354 Comments" [ref=e1075] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/peach-cake/#comments
+              - article [ref=e1076]:
+                - link [ref=e1077] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/strawberry-cookies/
+                  - img [ref=e1078]
+                - generic [ref=e1079]:
+                  - heading "Frosted Strawberry Cookies" [level=3] [ref=e1080]:
+                    - link "Frosted Strawberry Cookies" [ref=e1081] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/strawberry-cookies/
+                  - generic [ref=e1082]:
+                    - img [ref=e1083]
+                    - link "867 Comments" [ref=e1086] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/strawberry-cookies/#comments
+              - article [ref=e1087]:
+                - link [ref=e1088] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/key-lime-pie/
+                  - img [ref=e1089]
+                - generic [ref=e1090]:
+                  - heading "Key Lime Pie Recipe" [level=3] [ref=e1091]:
+                    - link "Key Lime Pie Recipe" [ref=e1092] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/key-lime-pie/
+                  - generic [ref=e1093]:
+                    - img [ref=e1094]
+                    - link "602 Comments" [ref=e1097] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/key-lime-pie/#comments
+              - article [ref=e1098]:
+                - link [ref=e1099] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/easy-homemade-strawberry-shortcake/
+                  - img [ref=e1100]
+                - generic [ref=e1101]:
+                  - heading "Homemade Strawberry Shortcake" [level=3] [ref=e1102]:
+                    - link "Homemade Strawberry Shortcake" [ref=e1103] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/easy-homemade-strawberry-shortcake/
+                  - generic [ref=e1104]:
+                    - img [ref=e1105]
+                    - link "579 Comments" [ref=e1108] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/easy-homemade-strawberry-shortcake/#comments
+              - article [ref=e1109]:
+                - link [ref=e1110] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/homemade-oreos/
+                  - img [ref=e1111]
+                - generic [ref=e1112]:
+                  - heading "Homemade Oreos" [level=3] [ref=e1113]:
+                    - link "Homemade Oreos" [ref=e1114] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/homemade-oreos/
+                  - generic [ref=e1115]:
+                    - img [ref=e1116]
+                    - link "334 Comments" [ref=e1119] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/homemade-oreos/#comments
+              - article [ref=e1120]:
+                - link [ref=e1121] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/lemon-blueberry-layer-cake/
+                  - img [ref=e1122]
+                - generic [ref=e1123]:
+                  - heading "Lemon Blueberry Layer Cake" [level=3] [ref=e1124]:
+                    - link "Lemon Blueberry Layer Cake" [ref=e1125] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/lemon-blueberry-layer-cake/
+                  - generic [ref=e1126]:
+                    - img [ref=e1127]
+                    - link "1,694 Comments" [ref=e1130] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/lemon-blueberry-layer-cake/#comments
+              - article [ref=e1131]:
+                - link [ref=e1132] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/maryland-crab-cakes/
+                  - img [ref=e1133]
+                - generic [ref=e1134]:
+                  - heading "Maryland Crab Cakes Recipe (Little Filler)" [level=3] [ref=e1135]:
+                    - link "Maryland Crab Cakes Recipe (Little Filler)" [ref=e1136] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/maryland-crab-cakes/
+                  - generic [ref=e1137]:
+                    - img [ref=e1138]
+                    - link "1,294 Comments" [ref=e1141] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/maryland-crab-cakes/#comments
+              - article [ref=e1142]:
+                - link [ref=e1143] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/ice-cream-cake-recipe/
+                  - img [ref=e1144]
+                - generic [ref=e1145]:
+                  - heading "Ice Cream Cake (Choose Your Flavor)" [level=3] [ref=e1146]:
+                    - link "Ice Cream Cake (Choose Your Flavor)" [ref=e1147] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/ice-cream-cake-recipe/
+                  - generic [ref=e1148]:
+                    - img [ref=e1149]
+                    - link "588 Comments" [ref=e1152] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/ice-cream-cake-recipe/#comments
+    - generic [ref=e1157]:
+      - generic [ref=e1159]:
+        - generic [ref=e1162]: As Seen On
+        - generic [ref=e1163]:
+          - img "Better Homes & Gardens" [ref=e1164]
+          - img "Good Morning America" [ref=e1165]
+          - img "Huffington Post" [ref=e1166]
+          - img "Taste of Home" [ref=e1167]
+          - img "People" [ref=e1168]
+          - img "Today Show" [ref=e1169]
+      - generic [ref=e1173]:
+        - heading "Sign Up for My Email List" [level=2] [ref=e1175]
+        - paragraph [ref=e1177]: Something sweet for your inbox! Join 350K others and subscribe to my free email list. You’ll get every new recipe and baking post as they’re published, plus an email with my most popular baking tips and recipes.
+        - generic [ref=e1178]:
+          - textbox "Your first name" [ref=e1180]
+          - textbox "Your email address" [ref=e1182]
+          - button [ref=e1184]:
+            - group [ref=e1185]:
+              - generic [ref=e1187] [cursor=pointer]: I agree to receive emails from Sally's Baking Recipes!
+          - button "Yes, Sign Me Up" [ref=e1188] [cursor=pointer]:
+            - generic [ref=e1189]: Yes, Sign Me Up
+        - paragraph [ref=e1191]: We respect your privacy. Unsubscribe at any time.
+      - generic [ref=e1194]:
+        - heading "Sally’s Classics" [level=2] [ref=e1196]
+        - generic [ref=e1197]:
+          - generic [ref=e1198]:
+            - article [ref=e1199]:
+              - link [ref=e1200] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/best-sugar-cookies/
+                - img [ref=e1201]
+              - generic [ref=e1202]:
+                - heading "The Best Sugar Cookies" [level=3] [ref=e1203]:
+                  - link "The Best Sugar Cookies" [ref=e1204] [cursor=pointer]:
+                    - /url: https://sallysbakingaddiction.com/best-sugar-cookies/
+                - generic [ref=e1205]:
+                  - img [ref=e1206]
+                  - link "2,770 Comments" [ref=e1209] [cursor=pointer]:
+                    - /url: https://sallysbakingaddiction.com/best-sugar-cookies/#comments
+            - article [ref=e1210]:
+              - link [ref=e1211] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/seriously-fudgy-homemade-brownies/
+                - img [ref=e1212]
+              - generic [ref=e1213]:
+                - heading "Seriously Fudgy Homemade Brownies" [level=3] [ref=e1214]:
+                  - link "Seriously Fudgy Homemade Brownies" [ref=e1215] [cursor=pointer]:
+                    - /url: https://sallysbakingaddiction.com/seriously-fudgy-homemade-brownies/
+                - generic [ref=e1216]:
+                  - img [ref=e1217]
+                  - link "645 Comments" [ref=e1220] [cursor=pointer]:
+                    - /url: https://sallysbakingaddiction.com/seriously-fudgy-homemade-brownies/#comments
+            - article [ref=e1221]:
+              - link [ref=e1222] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/banana-muffins/
+                - img [ref=e1223]
+              - generic [ref=e1224]:
+                - heading "Quick & Easy Banana Muffins" [level=3] [ref=e1225]:
+                  - link "Quick & Easy Banana Muffins" [ref=e1226] [cursor=pointer]:
+                    - /url: https://sallysbakingaddiction.com/banana-muffins/
+                - generic [ref=e1227]:
+                  - img [ref=e1228]
+                  - link "4,071 Comments" [ref=e1231] [cursor=pointer]:
+                    - /url: https://sallysbakingaddiction.com/banana-muffins/#comments
+            - article [ref=e1232]:
+              - link [ref=e1233] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/chewy-chocolate-chip-cookies/
+                - img [ref=e1234]
+              - generic [ref=e1235]:
+                - heading "Chewy Chocolate Chip Cookies" [level=3] [ref=e1236]:
+                  - link "Chewy Chocolate Chip Cookies" [ref=e1237] [cursor=pointer]:
+                    - /url: https://sallysbakingaddiction.com/chewy-chocolate-chip-cookies/
+                - generic [ref=e1238]:
+                  - img [ref=e1239]
+                  - link "6,363 Comments" [ref=e1242] [cursor=pointer]:
+                    - /url: https://sallysbakingaddiction.com/chewy-chocolate-chip-cookies/#comments
+            - article [ref=e1243]:
+              - link [ref=e1244] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/best-banana-bread-recipe/
+                - img [ref=e1245]
+              - generic [ref=e1246]:
+                - heading "My Favorite Banana Bread Recipe" [level=3] [ref=e1247]:
+                  - link "My Favorite Banana Bread Recipe" [ref=e1248] [cursor=pointer]:
+                    - /url: https://sallysbakingaddiction.com/best-banana-bread-recipe/
+                - generic [ref=e1249]:
+                  - img [ref=e1250]
+                  - link "4,170 Comments" [ref=e1253] [cursor=pointer]:
+                    - /url: https://sallysbakingaddiction.com/best-banana-bread-recipe/#comments
+            - article [ref=e1254]:
+              - link [ref=e1255] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/triple-chocolate-layer-cake/
+                - img [ref=e1256]
+              - generic [ref=e1257]:
+                - heading "Triple Chocolate Cake (Popular Recipe!)" [level=3] [ref=e1258]:
+                  - link "Triple Chocolate Cake (Popular Recipe!)" [ref=e1259] [cursor=pointer]:
+                    - /url: https://sallysbakingaddiction.com/triple-chocolate-layer-cake/
+                - generic [ref=e1260]:
+                  - img [ref=e1261]
+                  - link "4,971 Comments" [ref=e1264] [cursor=pointer]:
+                    - /url: https://sallysbakingaddiction.com/triple-chocolate-layer-cake/#comments
+          - link "View All Recipes" [ref=e1265] [cursor=pointer]:
+            - /url: https://sallysbakingaddiction.com/recipe-index/
+            - generic [ref=e1266]: View All Recipes
+            - img [ref=e1267]
+    - contentinfo [ref=e1269]:
+      - generic [ref=e1270]:
+        - link "back-to-top" [ref=e1271] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e1272]
+          - generic [ref=e1274]: Back to top
+        - generic [ref=e1275]:
+          - list [ref=e1276]:
+            - listitem [ref=e1277]:
+              - link "About" [ref=e1278] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/about/
+            - listitem [ref=e1279]:
+              - link "Accessibility" [ref=e1280] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/accessibility-statement/
+            - listitem [ref=e1281]:
+              - link "Disclosure" [ref=e1282] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/disclosure-policy/
+            - listitem [ref=e1283]:
+              - link "FAQs" [ref=e1284] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/faq/
+            - listitem [ref=e1285]:
+              - link "Privacy Policy" [ref=e1286] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/privacy-policy/
+            - listitem [ref=e1287]:
+              - link "Subscribe" [ref=e1288] [cursor=pointer]:
+                - /url: https://sallysbakingaddiction.com/instant-updates/
+          - generic [ref=e1289]: ©2026 Sally's Baking. All rights reserved.
