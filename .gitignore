@@ -143,3 +143,6 @@ memory.db
 /.idea
 /stealth_agent
 /crewai/osint_bot
+# trading_app runtime data
+mcp/trading_app/accounts.db*
+mcp/trading_app/memory/*.db*
